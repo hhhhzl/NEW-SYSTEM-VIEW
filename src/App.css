@@ -1,0 +1,128 @@
+.App-background {
+  background-color:whitesmoke;
+  position: absolute;
+  left: 0px;  
+  height:100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0px solid rgb(207, 200, 200); 
+  z-index: 0;
+}
+
+.side-menu{
+  display: flex;
+  color: white;
+  flex-direction: column;
+  position: absolute;
+  left: 0px;
+  width: 10%;
+  height:100%;
+  background-color: #2f4050; 
+  z-index: 2;
+}
+
+.side-text{
+  color: white;
+  display: row;
+  justify-content: center;
+  align-items: left;
+  height: 15%;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+ 
+}
+
+.sideText .row{
+  width:100%;
+  height: 50px;
+  background-color: aqua;
+  border: black;
+  list-style-type: none;
+  margin: 0%;
+  display: row;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-header {
+  background-color:white;
+  text-align:right;
+  font-size: 12pt;
+  width:110%;
+  height:11%;
+  position: absolute;
+  top: 0px;
+  color:black;
+  padding: 15px;
+  border: 0.5px solid rgb(207, 200, 200); 
+  z-index: 1;
+}
+
+
+
+.App-table{
+  border-radius: 25px;
+  background-color: white;
+  text-align:initial;
+  font-size: 15pt;
+  width:86%;
+  height: 60%;
+  position:absolute;
+  top: 18%;
+  left:12%;
+  color:black;
+  padding: 25px;
+  border: 0.5px solid rgb(207, 200, 200); 
+
+}
+
+
+
+
+.form{
+  background-color: white;
+  text-align:initial;
+  font-size: 10pt;
+  width:30%;
+  height: 60%;
+  position:fixed;
+  top: 15%;
+  left:35%;
+  padding: 10px;
+  color:black;
+  border: 0.5px solid rgb(207, 200, 200); 
+
+}
+
+.table{
+  border-radius: 25px;
+  text-align:initial;
+  font-size: 13pt;
+  width:95%;
+  height: 50%;
+  position:absolute;
+  top: 33%;
+  left:2%;
+  padding: 10px;
+  color:black;
+  border: 0.5px solid rgb(207, 200, 200); 
+
+}
+
+.pagination{
+  position:absolute;
+  color:#61dafb;
+  top: 88%;
+  left:74%;
+  border-radius: 25px;
+  z-index: 3;
+}
+
+.active{
+  background-color: royalblue;
+  color:white
+}
